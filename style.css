@@ -12,7 +12,15 @@ body {
 p {
   font-size: 20px;
 }
-.item{
+.merit{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
   text-align: center;
   justify-content: center;
+}
+.item{
+  display: grid;
+  grid-template-columns: 1r 1fr 1fr;
+  gap: 10px;
+  
 }
