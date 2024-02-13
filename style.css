@@ -63,8 +63,12 @@ header.news::before {
 /* 高さ100px、ロゴとナビメニューを両端に置く flex-end */
 
 .product #js-header{
-    background-image: url(https://github.com/Ren-Murata/Walife/blob/main/Group%20142.png?raw=true);
+    
     height: 300px;
+}
+.opacity-cover{
+    background-image: url(https://github.com/Ren-Murata/Walife/blob/main/Group%20142.png?raw=true);
+    height:380px;
 }
 
 .header-links {
