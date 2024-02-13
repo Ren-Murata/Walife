@@ -1,122 +1,250 @@
-@charset "UTF-8";
-body {
-  background-color: #fcf8ca;
-}
-.merit1{
-    font-size: 50px;
-    text-align: center;
-}
-.merit2{
-    text-align: center;
-}
-p {
-  font-size: 20px;
-}
-.merit{
-  display: grid;
-  grid-template-columns: 530px 530px 530px;
-  row-gap: 100px;
-  justify-content: center;
-  text-align: center;
-}
-.item{
-  display: grid;
-  gap: 10px;
-  transform: translateX(40px);
-  
-}
-.hidari{
- background-color: #faacac;
-}
-.migi{
-  background-color: #fac7c7;
-}
-.riyuu{
-  display: grid;
-  gap: 26px;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
-  margin-right: 15%;
-}
-.migi{
-  padding: 2%;
-  transform: translateX(-10px);
-  padding-right: 100px;
-}
-.hidari{
-  padding: 2%;
-  transform: translateX(10px);
-  margin-left: 30%;
-  margin-right: 80px;
-}
-h1{
-  text-align: center;
-  font-size: 60px;
-}
-h2{
-  text-align: center;
-}
-.workcatarogue{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-  justify-content: center;
-  transform: translateX(80px);
-}
-.catarogue7{
-  transform: translateX(1250px);
-}
-b{
-  text-align: center;
-}
-.InternExample{
-  display: grid;
-  gap: 15px;
-  grid-template-columns: 620px 620px;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  
-}
-table th{
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #ffffff;
-  padding: 20px;
-  font-weight: bold;
-}
-table td{
-  color: black;
-  font-family:Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
-  padding: 9px 30px;
-}
-table{
-  border-collapse: collapse;
-  text-align: center;
-}
-table th, table td {
-  border: solid 1px black;
-  /*実線 1px 黒*/
-  font-size: large;
-}
-.InternEntry{
-  display: grid;
-  gap: 100px;
-  grid-template-columns: 600px 600px;
-  justify-content: center;
-}
+<!DOCTYPE HTML>
+<html lang="ja">
 
-.wa-kupata-nnnosenntaku{
-  display: grid;
-  gap: 15px;
-  grid-template-columns: 400px 400px;
-  justify-content: center;
-  text-align: center;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日揮触媒化成：製品群一覧</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- Noto Sans JP 400, 500, 700 -->
+    <!-- DM Sans opt 400, 700 -->
+    <!-- M plus code latin 600 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=M+PLUS+Code+Latin:wght@600&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
 
-.hh img{
-  justify-content: center;
-  width: 600px;
-  height: 600px;
-}
+<body class="product">
+    <header class="product" id="js-header">
+        <div class="opacity-cover">
+            <div class="header-links">
+                <div class="logo-container">
+                    <img src="./img/logo-nikki.png" alt="日揮触媒化成" class="logo-nikki">
+                </div>
+                <nav class="header-navigation" id="js-nav">
+                    <div>
+                        <ul class="header-navigation-contact">
+                            <li><a href=""><img src="./img/Icon-feather-mail.png" alt="">お問い合わせ</a></li>
+                            <li><a href=""><img src="./img/Icon-feather-globe.png" alt="">English</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="header-navigation-list">
+                            <li><a href="">製品</a></li>
+                            <li><a href="">開発体制</a></li>
+                            <li><a href="">基盤技術</a></li>
+                            <li><a href="">4つの事業と展望</a></li>
+                            <li><a href="">採用</a></li>
+                            <li><a href="">サステナビリティ</a></li>
+                            <li>
+                                <a href="">"./im
+                                    <img src= alt
+                                        class="header-navigation-list-search-pc">
+                                    <img src="./img/Icon-search-black.svg" alt=""
+                                        class="header-navigation-list-search-sp">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <button class="header-hamburger hamburger" id="js-hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <section class="thumbnail news-thumbnail news-search-thumbnail">
+                <p class="thumbnail-title">
+                    屈折率調整
+                </p>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="product-part">
+                <div class="background">
+
+                </div>
+                <div class="product-list">
+                    
+                    <div class="product-search">
+                        <h2>屈折率調整</h2>
+                        <div class="product-item-list product-catalyst">
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>THRULYA</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>OPTLAKE（酸化チタン系ソル）</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>ELCOM V-4566</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>OPTOLAKE(n=1.60)</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>OPTOLAKE(n=1.67)</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>OPTOLAKE(プライマーコート材)</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>タッチパネル用電極保護剤</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    <div class="product-function">
+                        <h2>反射防止</h2>
+                        <div class="product-item-list product-cataclyst">
+                            <a href="">
+                                <div class="product-item">
+                                    
+                                    <div class="product-item-title">
+                                        <p>LR塗料(フィルム用)</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                    </div>
+                    <div class="product-function product-purpose">
+                        <h2>UV吸収/UVカット</h2>
+                        <div class="product-item-list product-cataclyst">
+                            <a href="">
+                                <div class="product-item">
+                                    
+                                    <div class="product-item-title">
+                                        <p>COVERLEAF PC/SUNVEIL S70</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>OPTLAKE（酸化チタン系ソル）</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>OPTLAKE（n=1.60）</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="product-item">
+                                    <div class="product-item-title">
+                                        <p>OPTLAKE（n=1.67）</p>
+                                        <img src="./img/icon-arrow.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            <div class = product-nothing>
+                <h2>光拡散</h2>
+                <div class="product item-list product-cataclyst">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class = product-nothing>
+                <h2>色彩変化効果</h2>
+            </div>
+            <br>
+            <br>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-information">
+            <img src="./img/logo-nikki.png" alt="日揮触媒化成" class="logo-nikki">
+            <p>〒212-0013 <br>
+                神奈川県川崎市幸区堀川町580番地 <br>
+                ソリッドスクエア東館16階</p>
+            <p class="footer-information-copyright"><small>© JGC C&C. All rights reserved.</small></p>
+        </div>
+        <div class="footer-nav">
+            <div class="footer-nav-list">
+                <div>
+                    <ul>
+                        <li><a href="" class="footer-nav-list-item-pc">トップページ</a></li>
+                        <li><a href="">製品</a></li>
+                        <li><a href="">共同開発</a></li>
+                        <li><a href="">基盤基盤</a></li>
+                        <li><a href="">4つの事業と展開</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="" class="footer-nav-list-item-pc">NEWS</a></li>
+                        <li><a href="">採用</a></li>
+                        <li><a href="">サステナビリティ</a></li>
+                        <li><a href="">サイトマップ</a></li>
+                        <li><a href="">個人情報保護方針</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-nav-contact">
+                <a href="">
+                    <p>
+                        <img src="./img/Icon-feather-mail.png" alt="">お問い合わせ
+                    </p>
+                </a>
+            </div>
+            <p class="footer-information-copyright-sp"><small>© JGC C&C. All rights reserved.</small></p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+
+</html>
